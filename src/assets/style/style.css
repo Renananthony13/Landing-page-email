@@ -114,6 +114,7 @@ form button {
 }
 form button:hover {
     filter: brightness(0.8);
+    transform: scale(1.01, 1.01);
 }
 
 
@@ -131,6 +132,11 @@ main {
 
 main img {
     max-width: 520px;
+}
+
+main img:hover {
+    opacity: .9;
+    transform: scale(1.01, 1.01);
 }
 
 
@@ -163,6 +169,10 @@ footer ul li {
 
     margin: 1rem;
     cursor: pointer;
+}
+
+footer ul li:hover {
+    transform: scale(1.1, 1.1);
 }
 
 li a {
